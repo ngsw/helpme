@@ -54,6 +54,7 @@ yellow_echo  '\n                 (´；ω；｀)ぶわわっ' && sleep 2 ; clear
   green_echo   '                     ( m9 にしこり < 大巨人軍のよばry)'
   red_echo     '   (ﾔｶﾏｼｲﾜ...)Oo.(´・ω・`).oO' && sleep 3 ; clear
   red_echo   '\n                 (´・ω・`).oO(...ﾃﾞﾓ,ﾓｰｽｺｼｶﾞﾝﾊﾞﾛｳ...)' && sleep 3 ; clear
+    red_echo '\n                 (´・ω・`)ｽｩ...' && sleep 1 ; clear
 
 done
 
