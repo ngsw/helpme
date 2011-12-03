@@ -12,6 +12,10 @@ ESC="\033"
 function red_echo   { echo "${ESC}[31m$*${ESC}[m"; }
 function green_echo { echo "${ESC}[32m$*${ESC}[m"; }
 function yellow_echo { echo "${ESC}[33m$*${ESC}[m"; }
+##OR
+#function red_echo   { echo -e "${ESC}[31m$*${ESC}[m"; }
+#function green_echo { echo -e "${ESC}[32m$*${ESC}[m"; }
+#function yellow_echo { echo -e "${ESC}[33m$*${ESC}[m"; }
 while :
 do
       clear
