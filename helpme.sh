@@ -2,17 +2,21 @@
 
 ######ESCcode
 #http://www.m-bsys.com/linux/echo-color-2
+#Mac Lion echo?
 ESC="\033" 
 ###OR###
+#Linux?
 #ESC="\e"  
 ######ESCcode
 
 #Color Scheme
 #http://d.hatena.ne.jp/daijiroc/20090207/1233980551
+#Mac Lion?
 function red_echo   { echo "${ESC}[31m$*${ESC}[m"; }
 function green_echo { echo "${ESC}[32m$*${ESC}[m"; }
 function yellow_echo { echo "${ESC}[33m$*${ESC}[m"; }
 ##OR
+#Linux?
 #function red_echo   { echo -e "${ESC}[31m$*${ESC}[m"; }
 #function green_echo { echo -e "${ESC}[32m$*${ESC}[m"; }
 #function yellow_echo { echo -e "${ESC}[33m$*${ESC}[m"; }
